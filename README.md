@@ -70,11 +70,9 @@ def policy_improvement(V, P, gamma=1.0):
 ```
 
 ## POLICY ITERATION FUNCTION
-```
-Developed by:Sivabalan
-Register number:212222240100
-```
 ```py
+##SIVABALAN 
+##212222240100
 def policy_iteration(P, gamma=1.0,theta=1e-10):
   random_actions=np.random.choice(tuple(P[0].keys()),len(P))
   pi = lambda s: {s:a for s, a in enumerate(random_actions)}[s]
